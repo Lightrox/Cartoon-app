@@ -2,7 +2,7 @@ import React, { useState, useCallback } from 'react';
 import { Camera, Download, Image as ImageIcon, Loader2 } from 'lucide-react'; 
 
 // API Key (will be automatically provided if empty in the Canvas environment)
-const apiKey = "";
+const apiKey = "AIzaSyDIOhoO-fprn6kK4VTCjkDBsHlUDb3rGjc";
 const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-image-preview:generateContent?key=${apiKey}`;
 
 // --- Utility Functions ---
